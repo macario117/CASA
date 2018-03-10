@@ -31,12 +31,12 @@ void InitGL ( void )     // Inicializamos parametros
 //FUNCION PARA CREAR UN PRISMA DEL TAMAÑO DESEADO
 void PrismaMOD(float X, float Y, float Z)       // AHORA SE ASIGAN VARIABLES EN LUGAR DE VALORES.
 {                                               /* SE DIVIDEN ENTRE 2 (/2) YA QUE LAS DIMENSIONES
-												PARTEN DEL CENTRO DEL PRISMA, CUYA UBICACION ES (0,0,0).
-												POR EJEMPLO: SI X=5 entonces la arista parte de X=0 y
-												se recorrera 2.5 unidades hacia la derecha e izquierda
-												sobre el mismo eje; se aplica de igualforma en los ejes Y,Z.
-												Utilizamos flotante para que nos pueda mostrar las dimensiones
-												correctas cuando utilizamos numeros NO pares*/
+						PARTEN DEL CENTRO DEL PRISMA, CUYA UBICACION ES (0,0,0).
+					        POR EJEMPLO: SI X=5 entonces la arista parte de X=0 y
+						se recorrera 2.5 unidades hacia la derecha e izquierda
+						sobre el mismo eje; se aplica de igualforma en los ejes Y,Z.
+						Utilizamos flotante para que nos pueda mostrar las dimensiones
+						correctas cuando utilizamos numeros NO pares*/
 	GLfloat vertice[8][3] = {
 		{ X / 2,-Y / 2, Z / 2 },    //Coordenadas Vértice 0 V0
 	{ -X / 2 ,-Y / 2, Z / 2 },    //Coordenadas Vértice 1 V1
