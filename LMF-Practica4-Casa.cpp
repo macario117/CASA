@@ -106,7 +106,11 @@ void display ( void )   // Creamos la funcion donde se dibuja
 	glColor3f(128, 0, 32);
 		glTranslatef(0.0f, 0.0f, transZ);
 		glRotatef(roty, 0, 1, 0);
-		//PERRITO
+		
+	        // PrismaMOD(X, Y, Z); AHORA ASIGANOS LOS DIGITOS DEL PRISMA QUE QUEREMOS 
+	
+	
+	        //PERRITO
 		//PANZA 
 		PrismaMOD(5, 2, 1); //TAMAÑO DE LA PANZA
 		glTranslatef(0, 0, 0);
